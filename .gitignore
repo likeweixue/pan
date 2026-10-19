@@ -1,0 +1,22 @@
+# 项目数据（不入库）
+.workbuddy/
+
+# macOS
+.DS_Store
+
+# 安装后的本地配置与锁文件（含数据库密码，切勿入库）
+config/config.php
+config/installed.lock
+
+# 运行时上传/缓存文件（仅保留目录占位）
+storage/files/*
+storage/thumbs/*
+storage/tmp/*
+!storage/files/.gitkeep
+!storage/thumbs/.gitkeep
+!storage/tmp/.gitkeep
+
+# 编辑器/IDE
+.idea/
+.vscode/
+*.log
